@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on WonderLand by Kazi Sean</title>
+    <link>https://iinotes.org/tags/</link>
+    <description>Recent content in Tags on WonderLand by Kazi Sean</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Dec 2022 22:33:27 -0500</lastBuildDate><atom:link href="https://iinotes.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Other</title>
+      <link>https://iinotes.org/tags/other/</link>
+      <pubDate>Thu, 15 Dec 2022 22:33:27 -0500</pubDate>
+      
+      <guid>https://iinotes.org/tags/other/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

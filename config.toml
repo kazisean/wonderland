@@ -1,0 +1,70 @@
+baseURL = "https://iinotes.org"
+languageCode = "en-us"
+title = "WonderLand by Kazi Sean"
+theme = "yinyang"
+enableRobotsTXT = true
+canonifyURLs = false
+Description = "A blog by Kazi Sean "
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    guessSyntax = true
+    noClasses = true
+    style = "tango"
+    tabWidth = 2
+
+[taxonomies]
+  tag = 'tags'
+  category = 'categories'
+
+
+
+
+[params]
+headTitle = "Wonderland"
+description = "My Random Notes ʕ•́ᴥ•̀ʔっ on Various Topics"
+
+favicon = "/favicon.ico"
+
+mainSections = ["posts"]
+postHeaderContent = ""
+postFooterContent = '<br/><br/><br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://blog.joway.io/images/cc.png" /></a>'
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53624533-8"></script><script src="https://cdn.jsdelivr.net/gh/joway/homepage/analytics.js"></script>'
+
+
+lazyImage = true
+
+# Nav bar
+[[params.socials]]
+name = "Class Notes"
+link = "/tags/class-notes"
+target = "_self"
+
+[[params.socials]]
+name = "CS"
+link = "/tags/cs"
+target = "_self"
+
+[[params.socials]]
+name = "Physics"
+link = "/tags/physics/"
+target = "_self"
+
+[[params.socials]]
+name = "Other"
+link = "/tags/other/"
+target = "_self"
+
+
+
+[[params.socials]]
+name = "Socials"
+link = "https://twitter.com/KaziSean_"
+target = "_blank"
+
+
