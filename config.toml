@@ -56,6 +56,12 @@ link = "/tags/physics/"
 target = "_self"
 
 [[params.socials]]
+name = "Mathematics"
+link = "/tags/Mathematics/"
+target = "_self"
+
+
+[[params.socials]]
 name = "Other"
 link = "/tags/other/"
 target = "_self"

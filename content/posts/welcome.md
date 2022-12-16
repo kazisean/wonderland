@@ -1,5 +1,5 @@
 ---
-title: "Welcome To My Journal"
+title: "Welcome To Wonderland"
 date: 2022-12-15T22:33:27-05:00
 tags : ["Other"]
 ---
