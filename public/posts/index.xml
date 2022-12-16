@@ -6,9 +6,45 @@
     <description>Recent content in Posts on WonderLand by Kazi Sean</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Dec 2022 22:33:27 -0500</lastBuildDate><atom:link href="https://iinotes.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Dec 2022 12:32:53 -0500</lastBuildDate><atom:link href="https://iinotes.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome To My Journal</title>
+      <title>Math</title>
+      <link>https://iinotes.org/posts/math/</link>
+      <pubDate>Fri, 16 Dec 2022 12:32:53 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/math/</guid>
+      <description>Welcome to this math section</description>
+    </item>
+    
+    <item>
+      <title>Physics</title>
+      <link>https://iinotes.org/posts/physics/</link>
+      <pubDate>Fri, 16 Dec 2022 12:25:38 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/physics/</guid>
+      <description>Welcome to physics notes</description>
+    </item>
+    
+    <item>
+      <title>Python Notes</title>
+      <link>https://iinotes.org/posts/cs/</link>
+      <pubDate>Fri, 16 Dec 2022 12:25:30 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/cs/</guid>
+      <description>Intro to Programming ( Python) Notes Vocabulary print - outputs </description>
+    </item>
+    
+    <item>
+      <title>Class Notes</title>
+      <link>https://iinotes.org/posts/class-notes/</link>
+      <pubDate>Fri, 16 Dec 2022 12:25:22 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/class-notes/</guid>
+      <description>Welcome to class notes test</description>
+    </item>
+    
+    <item>
+      <title>Welcome To Wonderland</title>
       <link>https://iinotes.org/posts/welcome/</link>
       <pubDate>Thu, 15 Dec 2022 22:33:27 -0500</pubDate>
       
