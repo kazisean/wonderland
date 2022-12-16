@@ -69,6 +69,6 @@ target = "_blank"
 
 
 [sitemap]
-  changefreq = 'monthly'
+  changefreq = 'hourly'
   filename = 'sitemap.xml'
   priority = 0.5
