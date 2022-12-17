@@ -84,8 +84,32 @@ wonder
 By default Instance Variables are  mutable or can be changed. 
 
 # what I mean by this?
-<p> ok here is an example using the old code.</p>
+<p> ok here is an example using the old code. If we wanted to change our first_name we can simply do so. </p>
 
+<pre><code>
+class name:
+    first_name="wonder"
+    last_name="land"
+
+name_a=name()
+print(name_a.first_name)
+
+name_a.first_name = "Kazi"
+print(name_a.first_name)
+
+
+</code></pre>
+
+### This will give us the output : 
+
+<pre><code>
+
+wonder
+Kazi
+
+</code></pre>
+
+<p>Notice the first time we printed the output of name_a.first_name we got wonder which is from the class. And the second time we printed the output we told the computer that name_a.first_name has the value "Kazi". And it printed out Kazi. So in short you can change instance variables anyway you want.</p>
 
 
 ### <center>Object Constructors</center>
