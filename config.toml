@@ -34,7 +34,7 @@ favicon = "/favicon.ico"
 mainSections = ["posts"]
 postHeaderContent = ""
 postFooterContent = '<br/><br/><br/><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://blog.joway.io/images/cc.png" /></a>'
-extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53624533-8"></script><script src="https://cdn.jsdelivr.net/gh/joway/homepage/analytics.js"></script>'
+extraHead = '<script async src="https://www.googletagmanager.com/gtag/js?id=G-TLY5V0RFKS"></script><script src="https://cdn.jsdelivr.net/gh/joway/homepage/analytics.js"></script>'
 
 
 lazyImage = true

@@ -8,12 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Dec 2022 12:25:30 -0500</lastBuildDate><atom:link href="https://iinotes.org/tags/cs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python Notes</title>
+      <title>( Python ) Object Oriented Programming </title>
       <link>https://iinotes.org/posts/cs/</link>
       <pubDate>Fri, 16 Dec 2022 12:25:30 -0500</pubDate>
       
       <guid>https://iinotes.org/posts/cs/</guid>
-      <description>Intro to Programming ( Python) Notes Vocabulary print - outputs </description>
+      <description> Introduction to Object Oriented Programming Classes, Properties &amp;amp; Instances Object Constructors Instance Methods </description>
     </item>
     
   </channel>
