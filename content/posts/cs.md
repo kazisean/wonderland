@@ -114,6 +114,63 @@ Kazi
 
 ### <center>Object Constructors</center>
 
+def __init__ (self)
 
-### <center>Instance Methods</center>
+The init argument has to accept atleast one argument . Which in this case is self. In every init funtions self has to be there. The init funtions triggers automatically upon creation of a new instance for example.  C = cash() if cash was a class with a innit funtion inside. 
+
++ But what is self?
+
+Self is just a memory location just like we discusssed before. We need to call self because everytime we run the funtion inside of the class the computer needs to know what memory adress to look for. And self provides that memory adress. Memory adress can be different time to time. It is only same while you are running the program. The self in the init funtions holds the same memory adress as the class. 
+
+Object constructors are similar to the funtions we have learned in the previous notes. Except we have to have self at the start. But the only differance is that for example : 
+
+class cool: 
+    def __init__( self, x, y ):
+        self.x = x
+        self.y= y
+
+z = cool(12, 13)
+
+print(z.x, z.y)
+
+Output : 12  13
+
+In this case notice how we can just give out class the value and it would simply give us the output we wanted which is both the value of x and y. we didn't have to assing any values inside the class itself. Now this is a very easy example but you get the point. You can make it do complicated math problem using these structures so easy without tempting with different funtions at different times. Everything is just done in one place at one time.   
+
+
+# + Notes to remeber : 
+
+Classes are blue prints. They are orgranized pattern for a complicated piece of data. 
+
+Inside of a class we can have funtions. 
+
+A constructor is an object that runs the first time an object is created.
+
+The __init__ funtions job is to act as a constructor. 
+
+The __init__ funtion always takes ATLEAST one argument. Which is a referance to the object that is being created memory adress. 
+
+You can have as many argument inside the __init__ funtions you want. But you must atleast have one argument. 
+
+All the funtions inside of a class needs to have atleast one argument. which is self. This is not only limited to the __init__ funtions but any funtions that is beign created inside of that class. 
+
+Remeber that you can class different funtions inside of a class. For example lets say you have a funtion inside of a class that takes in the input first and last name. You also have a different funtion that determines that persons net worth. In the second funtion you can call the first funtion to get the name and print out for example lets say " Habib's Net Worth is $8M". In this case you didn't really have to do much to get the first name you just called the first funtion which already have done that. 
+
+Remember that when in the second funtion you call the first funtion you must use the . syntax. Meaning for exmaple from our previous exmaple if we want need the x value in our second funtion we need to write self.x = x. Example : 
+class cool: 
+    def __init__( self, x, y ):
+        self.x = x
+        self.y= y
+
+    def double(self):
+        total = self.x * self.x 
+        print(total)
+
+z = cool(12, 13)
+
+print(z.x, z.y)
+
+Hope you understad the way we structure it. It is very imporant for the variable to exist before you call it in your second funtion. 
+
+You can call a single funtion from the class using the . syntax. For example using our old example we can just print the double. By saying z.double(). 
 

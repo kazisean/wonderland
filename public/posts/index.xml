@@ -31,8 +31,10 @@
       <pubDate>Fri, 16 Dec 2022 12:25:30 -0500</pubDate>
       
       <guid>https://iinotes.org/posts/cs/</guid>
-      <description> Introduction to Object Oriented Programming OOP or Object Oriented Programming is similar to funtions. A funtion is a collection of commands and data. Where OOP is a collecton of funtions and data.
-Classes, Properties &amp;amp; Instances Object Constructors Instance Methods </description>
+      <description>Introduction to Object Oriented Programming OOP or Object Oriented Programming is similar to funtions.
+A funtion - is a collection of commands and data. OOP - is a collecton of funtions and data.
+In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less life of codes and can be updated very easily.
+Classes, Properties &amp;amp; Instances So what is a class ?</description>
     </item>
     
     <item>
