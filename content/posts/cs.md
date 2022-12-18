@@ -21,7 +21,7 @@ OOP or Object Oriented Programming is similar to funtions.
 A funtion - is a collection of commands and data. <br>
 OOP -  is a collecton of funtions and data. 
 
-In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less life of codes and can be updated very easily.
+In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less line of codes and can be updated very easily.
 
 
 ### <center>Classes, Properties & Instances</center>
