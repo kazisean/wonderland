@@ -26,6 +26,8 @@ a:hover {
   margin: 50px 0;
 }
 
+
+
 .markdown-body {
   font-size: 18px;
   max-width: 100%;
@@ -278,5 +280,13 @@ a:hover {
 @media screen and (max-width: 48em) {
   .posts-category {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  embed[type="text/html"] {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
   }
 }
