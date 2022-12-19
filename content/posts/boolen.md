@@ -28,3 +28,23 @@ not - opposite the operand
 and - true if both operands are true; otherwise false
 
 or - true if either operand is true; otherwise false
+
+True and True data will always give True
+
+True and False will always give False
+
+False and False will always give False
+
++ Note 
+In the or boolean operator as long as one of the varible is true it would return true. The order does not matter
+
+True or False will always give True
+
+True or True will always give True
+
++ Not boolen 
+
+not True will always give us False
+
+not False will always give us True
+
