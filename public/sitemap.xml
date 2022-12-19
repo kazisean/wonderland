@@ -2,27 +2,37 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="https://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iinotes.org/posts/cs_dictionary/</loc>
+    <lastmod>2022-12-18T19:25:52-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/tags/cs/</loc>
+    <lastmod>2022-12-18T19:25:52-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/posts/</loc>
+    <lastmod>2022-12-18T19:25:52-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/tags/</loc>
+    <lastmod>2022-12-18T19:25:52-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/</loc>
+    <lastmod>2022-12-18T19:25:52-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://iinotes.org/posts/math/</loc>
     <lastmod>2022-12-16T12:32:53-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://iinotes.org/tags/mathematics/</loc>
-    <lastmod>2022-12-16T12:32:53-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/posts/</loc>
-    <lastmod>2022-12-16T12:32:53-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/tags/</loc>
-    <lastmod>2022-12-16T12:32:53-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/</loc>
     <lastmod>2022-12-16T12:32:53-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
@@ -38,11 +48,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://iinotes.org/posts/cs/</loc>
-    <lastmod>2022-12-16T12:25:30-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/tags/cs/</loc>
     <lastmod>2022-12-16T12:25:30-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>

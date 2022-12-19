@@ -1,8 +1,7 @@
-class cool: 
-    def __init__( self, x, y ):
-        self.x = x
-        self.y= y
+my_dictonary = {
+                                "one" : ["Messi", "Mbappe"], 
+                                "two": "Ronaldo", 
+                                "three":"Neymar"}
 
-z = cool(12, 13)
-
-print(z.x, z.y)
+print(my_dictonary.popitem())
+print(my_dictonary)

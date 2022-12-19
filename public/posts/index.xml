@@ -6,7 +6,19 @@
     <description>Recent content in Posts on WonderLand by Kazi Sean</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Dec 2022 12:32:53 -0500</lastBuildDate><atom:link href="https://iinotes.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Dec 2022 19:25:52 -0500</lastBuildDate><atom:link href="https://iinotes.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>( Python ) Dictionaries Notes</title>
+      <link>https://iinotes.org/posts/cs_dictionary/</link>
+      <pubDate>Sun, 18 Dec 2022 19:25:52 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/cs_dictionary/</guid>
+      <description>Basics of Python Dictionary Dictionary is a way to orgazine and maintain our data. A Dictonary is another iterable data structure that is build into pyhton. Kind of similar to llist. But unlike list in dictionary you can store data that relates to one another.
+Example of a dictionary my_dictonary = {&amp;ldquo;one&amp;rdquo; : &amp;ldquo;Messi&amp;rdquo;, &amp;ldquo;two&amp;rdquo;: &amp;ldquo;Ronaldo&amp;rdquo;, &amp;ldquo;three&amp;rdquo;:&amp;ldquo;Neymar&amp;rdquo;} print(my_dictonary[&amp;ldquo;one&amp;rdquo;])
+Output : Messi
+From this example we can see that we can print out the value inside a dictionary using their keys.</description>
+    </item>
+    
     <item>
       <title>Math</title>
       <link>https://iinotes.org/posts/math/</link>
@@ -33,7 +45,7 @@
       <guid>https://iinotes.org/posts/cs/</guid>
       <description>Introduction to Object Oriented Programming OOP or Object Oriented Programming is similar to funtions.
 A funtion - is a collection of commands and data. OOP - is a collecton of funtions and data.
-In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less life of codes and can be updated very easily.
+In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less line of codes and can be updated very easily.
 Classes, Properties &amp;amp; Instances So what is a class ?</description>
     </item>
     
