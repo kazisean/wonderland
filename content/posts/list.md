@@ -1,12 +1,12 @@
 ---
-title: "List"
+title: "( Python ) List"
 date: 2022-12-19T20:33:19-05:00
 tags : ["cs"]
 category : ["Class Notes"]
 ---
 
 
-#<center>List</center>
+# <center>List</center>
 
 When you multiply a list you dublicate them with in that list at the end. Okay this might be confusing. Here is an example : 
 
