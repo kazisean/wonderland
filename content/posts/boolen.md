@@ -1,5 +1,5 @@
 ---
-title: "Boolen"
+title: "( Python ) Boolen"
 date: 2022-12-19T15:51:24-05:00
 tags : ["cs"]
 category : ["Class Notes"]
