@@ -26,7 +26,7 @@ Indexing starts from 0
 the len()  funtion when used on a list returns the number of items stored inside that list. It returns a number. 
 
 
-#<center>Slicing</center>
+# <center>Slicing</center>
 
 Example : 
 
