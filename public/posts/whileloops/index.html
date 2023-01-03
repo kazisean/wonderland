@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://iinotes.org/posts/math/" />
-  <link rel="canonical" href="https://iinotes.org/posts/math/" /><link rel="apple-touch-icon" href="/favicon.ico" />
+  <meta property="og:url" content="https://iinotes.org/posts/whileloops/" />
+  <link rel="canonical" href="https://iinotes.org/posts/whileloops/" /><link rel="apple-touch-icon" href="/favicon.ico" />
   <link rel="icon" href="/favicon.ico" />
   <link rel="shortcut" href="/favicon.ico" /><link rel="alternate" type="application/atom+xml" href="https://iinotes.orgindex.xml" title="WonderLand by Kazi Sean">
 
@@ -21,9 +21,9 @@
            "@id": "https:\/\/iinotes.org"
       },
       "articleSection" : "posts",
-      "name" : "Math",
-      "headline" : "Math",
-      "description" : "Welcome to this math section",
+      "name" : "( Python ) Strings and slicing",
+      "headline" : "( Python ) Strings and slicing",
+      "description" : "Indexing starts like this :\nStarts from 0 If we wanted to found from backward the first number would be -9 instade of 0. This is called negative indexing. https:\/\/cdn.discordapp.com\/attachments\/966939751280164915\/1054567521673551883\/image.png For more info look at this ^\nThe len funtion returns everything within a string. Even spaces.\nStrings are immutable\nord() = get the order in the ascii table where the character is chr() = takes a number as an input and returns the value from the ascii table",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -31,17 +31,25 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-12-16 12:32:53 -0500 EST",
-      "dateModified" : "2022-12-16 12:32:53 -0500 EST",
-      "url" : "https:\/\/iinotes.org\/posts\/math\/",
-      "keywords" : [ "Mathematics", ]
+      "datePublished": "2022-12-19 19:09:31 -0500 EST",
+      "dateModified" : "2022-12-19 19:09:31 -0500 EST",
+      "url" : "https:\/\/iinotes.org\/posts\/whileloops\/",
+      "keywords" : [ "cs", ]
   }
 </script>
-<title>Math</title>
-  <meta property="og:title" content="Math" />
+<title>( Python ) Strings and slicing</title>
+  <meta property="og:title" content="( Python ) Strings and slicing" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Welcome to this math section" />
-  <meta name="description" content="Welcome to this math section" />
+  <meta property="og:description" content="Indexing starts like this :
+Starts from 0 If we wanted to found from backward the first number would be -9 instade of 0. This is called negative indexing. https://cdn.discordapp.com/attachments/966939751280164915/1054567521673551883/image.png For more info look at this ^
+The len funtion returns everything within a string. Even spaces.
+Strings are immutable
+ord() = get the order in the ascii table where the character is chr() = takes a number as an input and returns the value from the ascii table" />
+  <meta name="description" content="Indexing starts like this :
+Starts from 0 If we wanted to found from backward the first number would be -9 instade of 0. This is called negative indexing. https://cdn.discordapp.com/attachments/966939751280164915/1054567521673551883/image.png For more info look at this ^
+The len funtion returns everything within a string. Even spaces.
+Strings are immutable
+ord() = get the order in the ascii table where the character is chr() = takes a number as an input and returns the value from the ascii table" />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/favicon.ico" />
   
 
@@ -122,16 +130,16 @@
         </div>
         <header class="post-header">
           
-          <h1 class="post-title">Math</h1>
+          <h1 class="post-title">( Python ) Strings and slicing</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <p>Reading time: 1 minute</p>
+              <p>Reading time: 2 minutes</p>
 
-              <time class="post-date" datetime="2022-12-16 12:32:53 EST">
+              <time class="post-date" datetime="2022-12-19 19:09:31 EST">
                 
-                16 Dec 2022
+                19 Dec 2022
               </time> 
               
               
@@ -148,7 +156,29 @@
 
         <div class="post-content markdown-body">
           
-          <p>Welcome to this math section</p>
+          <p>Indexing starts like this :</p>
+<p>Starts from 0
+If we wanted to found from backward the first number would be -9 instade of 0. This is called negative indexing.
+<a href="https://cdn.discordapp.com/attachments/966939751280164915/1054567521673551883/image.png">https://cdn.discordapp.com/attachments/966939751280164915/1054567521673551883/image.png</a>
+For more info look at this ^</p>
+<p>The len funtion returns everything within a string. Even spaces.</p>
+<p>Strings are immutable</p>
+<p>ord() = get the order in the ascii table where the character is
+chr() = takes a number as an input and returns the value from the ascii table</p>
+<p>capitalize() - It capitalize the first value of the string and makes everything else lower case</p>
+<p>lower() - It makes all the values in the string lower case</p>
+<p>is.lower() - Returns a true or false value</p>
+<p>count() - takes in a value and finds out how many of them there are inside the string</p>
+<p>find() - similar to count but this time it returns where the value is in the index of the string</p>
+<p>upper() - makes all the values inside of a string upper case</p>
+<p>title() - Makes the first letter of every char capital</p>
+<p>replace () - Takes in two values. First you need to put the value of the string you want to change and then after the comma you put the new value as a string.</p>
+<p>Example : my_string.replace(&ldquo;kazi&rdquo;,&ldquo;First Name&rdquo;)</p>
+<p>This will replace the word kazi from my_string and and replace it with First Name and would print it out. But this does not change the string global. You need to store it as a new varible if you want to do so.</p>
+<ul>
+<li>All sequence and strings are Iterable meaning they can be extracted one at a time.</li>
+</ul>
+<p>We can iterate over all the values from a string using a for loop.</p>
 
         </div>
 
@@ -156,8 +186,8 @@
           <div class="col-xs-12">
             
             <div class="post-tags">
-              <a href="/tags/mathematics/">
-                Mathematics
+              <a href="/tags/cs/">
+                cs
               </a>
             </div>
             
@@ -171,6 +201,19 @@
           </div>
 
           
+
+<div class="related-content">
+  <h3>Related Posts</h3>
+  <ul>
+    
+    <li><a href="/posts/boolen/">( Python ) Boolen</a></li>
+    
+    <li><a href="/posts/types/"> ( Python ) Format Funtion &amp; Errors</a></li>
+    
+    <li><a href="/posts/cs_dictionary/">( Python ) Dictionaries Notes</a></li>
+    
+  </ul>
+</div>
 
 
 

@@ -6,15 +6,74 @@
     <description>Recent content on WonderLand by Kazi Sean</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Dec 2022 19:25:52 -0500</lastBuildDate><atom:link href="https://iinotes.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Dec 2022 15:09:41 -0500</lastBuildDate><atom:link href="https://iinotes.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Productivity Videos</title>
+      <link>https://iinotes.org/posts/addicted_study/</link>
+      <pubDate>Wed, 21 Dec 2022 15:09:41 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/addicted_study/</guid>
+      <description>How to make studying feel like a video game. Social Tariff for broadband detailsNOW broadband social tariffsfunction execute_YTvideo(){return youtube.query({ids:&#34;channel==MINE&#34;,startDate:&#34;2019-01-01&#34;,endDate:&#34;2019-12-31&#34;,metrics:&#34;views,estimatedMinutesWatched,averageViewDuration,averageViewPercentage,subscribersGained&#34;,dimensions:&#34;day&#34;,sort:&#34;day&#34;}).then(function(e){},function(e){console.error(&#34;Execute error&#34;,e)})}Powered by Embed YouTube Video Summary :</description>
+    </item>
+    
+    <item>
+      <title>( Python ) List</title>
+      <link>https://iinotes.org/posts/list/</link>
+      <pubDate>Mon, 19 Dec 2022 20:33:19 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/list/</guid>
+      <description>List When you multiply a list you dublicate them with in that list at the end. Okay this might be confusing. Here is an example :
+exp_list = [2,3] *2
+print(exp_list)
+Output : [2,3,2,3]
+Now do you see what I mean? Pretty cool.
+ Index notation is always going to be []  Indexing starts from 0
+the len() funtion when used on a list returns the number of items stored inside that list.</description>
+    </item>
+    
+    <item>
+      <title>( Python ) Strings and slicing</title>
+      <link>https://iinotes.org/posts/whileloops/</link>
+      <pubDate>Mon, 19 Dec 2022 19:09:31 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/whileloops/</guid>
+      <description>Indexing starts like this :
+Starts from 0 If we wanted to found from backward the first number would be -9 instade of 0. This is called negative indexing. https://cdn.discordapp.com/attachments/966939751280164915/1054567521673551883/image.png For more info look at this ^
+The len funtion returns everything within a string. Even spaces.
+Strings are immutable
+ord() = get the order in the ascii table where the character is chr() = takes a number as an input and returns the value from the ascii table</description>
+    </item>
+    
+    <item>
+      <title>( Python ) Boolen</title>
+      <link>https://iinotes.org/posts/boolen/</link>
+      <pubDate>Mon, 19 Dec 2022 15:51:24 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/boolen/</guid>
+      <description>Boolean Data Boolan Data can be either True or False.
+ == Equals to != Not Equal to = Greater than or equal to  Greater than Note the sign has to always come before the equal  Logical Boolean Operators not - opposite the operand
+and - true if both operands are true; otherwise false
+or - true if either operand is true; otherwise false
+True and True data will always give True</description>
+    </item>
+    
+    <item>
+      <title> ( Python ) Format Funtion &amp; Errors</title>
+      <link>https://iinotes.org/posts/types/</link>
+      <pubDate>Mon, 19 Dec 2022 08:48:39 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/types/</guid>
+      <description>The format funtion takes in 2 argument. The first aurgument is the thing you want to format (a string or number). The second argument would be a pattern want to apply (how you want it to be formated). This second argument is always expressed as a string. It would have to have &amp;ldquo;&amp;rdquo;. Inside those quotation marks first we need to declare the data type. If the data type is a float inside the &amp;quot;&amp;quot; we need to put an f.</description>
+    </item>
+    
     <item>
       <title>( Python ) Dictionaries Notes</title>
       <link>https://iinotes.org/posts/cs_dictionary/</link>
       <pubDate>Sun, 18 Dec 2022 19:25:52 -0500</pubDate>
       
       <guid>https://iinotes.org/posts/cs_dictionary/</guid>
-      <description>Basics of Python Dictionary Dictionary is a way to orgazine and maintain our data. A Dictonary is another iterable data structure that is build into pyhton. Kind of similar to llist. But unlike list in dictionary you can store data that relates to one another.
-Example of a dictionary my_dictonary = {&amp;ldquo;one&amp;rdquo; : &amp;ldquo;Messi&amp;rdquo;, &amp;ldquo;two&amp;rdquo;: &amp;ldquo;Ronaldo&amp;rdquo;, &amp;ldquo;three&amp;rdquo;:&amp;ldquo;Neymar&amp;rdquo;} print(my_dictonary[&amp;ldquo;one&amp;rdquo;])
+      <description>Basics of Python Dictionary  Dictionary is a way to orgazine and maintain our data. A Dictonary is another iterable data structure that is build into pyhton. Kind of similar to llist. But unlike list in dictionary you can store data that relates to one another.
+ Example of a dictionary my_dictonary = {&amp;ldquo;one&amp;rdquo; : &amp;ldquo;Messi&amp;rdquo;, &amp;ldquo;two&amp;rdquo;: &amp;ldquo;Ronaldo&amp;rdquo;, &amp;ldquo;three&amp;rdquo;:&amp;ldquo;Neymar&amp;rdquo;}  print(my_dictonary[&amp;ldquo;one&amp;rdquo;])
 Output : Messi
 From this example we can see that we can print out the value inside a dictionary using their keys.</description>
     </item>
@@ -43,10 +102,9 @@ From this example we can see that we can print out the value inside a dictionary
       <pubDate>Fri, 16 Dec 2022 12:25:30 -0500</pubDate>
       
       <guid>https://iinotes.org/posts/cs/</guid>
-      <description>Introduction to Object Oriented Programming OOP or Object Oriented Programming is similar to funtions.
+      <description>Vocabulary ``` print - outputs ```  -- Intro to Programming ( Python) Notes  -- Introduction to Object Oriented Programming OOP or Object Oriented Programming is similar to funtions.
 A funtion - is a collection of commands and data. OOP - is a collecton of funtions and data.
-In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less line of codes and can be updated very easily.
-Classes, Properties &amp;amp; Instances So what is a class ?</description>
+In short OOP can contain mutiple funtions within a class. This causes the program to run more smoothly, with less line of codes and can be updated very easily.</description>
     </item>
     
     <item>

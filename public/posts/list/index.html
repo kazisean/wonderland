@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://iinotes.org/posts/math/" />
-  <link rel="canonical" href="https://iinotes.org/posts/math/" /><link rel="apple-touch-icon" href="/favicon.ico" />
+  <meta property="og:url" content="https://iinotes.org/posts/list/" />
+  <link rel="canonical" href="https://iinotes.org/posts/list/" /><link rel="apple-touch-icon" href="/favicon.ico" />
   <link rel="icon" href="/favicon.ico" />
   <link rel="shortcut" href="/favicon.ico" /><link rel="alternate" type="application/atom+xml" href="https://iinotes.orgindex.xml" title="WonderLand by Kazi Sean">
 
@@ -21,9 +21,9 @@
            "@id": "https:\/\/iinotes.org"
       },
       "articleSection" : "posts",
-      "name" : "Math",
-      "headline" : "Math",
-      "description" : "Welcome to this math section",
+      "name" : "( Python ) List",
+      "headline" : "( Python ) List",
+      "description" : "List When you multiply a list you dublicate them with in that list at the end. Okay this might be confusing. Here is an example :\nexp_list = [2,3] *2\nprint(exp_list)\nOutput : [2,3,2,3]\nNow do you see what I mean? Pretty cool.\n Index notation is always going to be []  Indexing starts from 0\nthe len() funtion when used on a list returns the number of items stored inside that list.",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -31,17 +31,29 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-12-16 12:32:53 -0500 EST",
-      "dateModified" : "2022-12-16 12:32:53 -0500 EST",
-      "url" : "https:\/\/iinotes.org\/posts\/math\/",
-      "keywords" : [ "Mathematics", ]
+      "datePublished": "2022-12-19 20:33:19 -0500 EST",
+      "dateModified" : "2022-12-19 20:33:19 -0500 EST",
+      "url" : "https:\/\/iinotes.org\/posts\/list\/",
+      "keywords" : [ "cs", ]
   }
 </script>
-<title>Math</title>
-  <meta property="og:title" content="Math" />
+<title>( Python ) List</title>
+  <meta property="og:title" content="( Python ) List" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Welcome to this math section" />
-  <meta name="description" content="Welcome to this math section" />
+  <meta property="og:description" content="List When you multiply a list you dublicate them with in that list at the end. Okay this might be confusing. Here is an example :
+exp_list = [2,3] *2
+print(exp_list)
+Output : [2,3,2,3]
+Now do you see what I mean? Pretty cool.
+ Index notation is always going to be []  Indexing starts from 0
+the len() funtion when used on a list returns the number of items stored inside that list." />
+  <meta name="description" content="List When you multiply a list you dublicate them with in that list at the end. Okay this might be confusing. Here is an example :
+exp_list = [2,3] *2
+print(exp_list)
+Output : [2,3,2,3]
+Now do you see what I mean? Pretty cool.
+ Index notation is always going to be []  Indexing starts from 0
+the len() funtion when used on a list returns the number of items stored inside that list." />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/favicon.ico" />
   
 
@@ -122,16 +134,16 @@
         </div>
         <header class="post-header">
           
-          <h1 class="post-title">Math</h1>
+          <h1 class="post-title">( Python ) List</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <p>Reading time: 1 minute</p>
+              <p>Reading time: 2 minutes</p>
 
-              <time class="post-date" datetime="2022-12-16 12:32:53 EST">
+              <time class="post-date" datetime="2022-12-19 20:33:19 EST">
                 
-                16 Dec 2022
+                19 Dec 2022
               </time> 
               
               
@@ -148,7 +160,48 @@
 
         <div class="post-content markdown-body">
           
-          <p>Welcome to this math section</p>
+          <h1 id="centerlistcenter"><center>List</center></h1>
+<p>When you multiply a list you dublicate them with in that list at the end. Okay this might be confusing. Here is an example :</p>
+<p>exp_list  = [2,3] *2</p>
+<p>print(exp_list)</p>
+<p>Output :
+[2,3,2,3]</p>
+<p>Now do you see what I mean? Pretty cool.</p>
+<ul>
+<li>Index notation is always going to be []</li>
+</ul>
+<p>Indexing starts from 0</p>
+<p>the len()  funtion when used on a list returns the number of items stored inside that list. It returns a number.</p>
+<h1 id="centerslicingcenter"><center>Slicing</center></h1>
+<p>Example :</p>
+<p>ltr = &ldquo;Kazi&rdquo;</p>
+<p>print(ltr[0:2])</p>
+<p>Output:
+Ka</p>
+<p>As you can see that this slicing method return the value based on the index number.</p>
+<p>We can also do the same thing with list.</p>
+<h1 id="how-to-add-a-value-to-an-existing-list">How to add a value to an existing list</h1>
+<p>we can do that by list_name += [&ldquo;new value&rdquo;]</p>
+<p>This will add the value at the end of the list</p>
+<ul>
+<li>Make sure to not forget the brackets</li>
+</ul>
+<p>We can also add a value at the start of a list by list_name = [&ldquo;new value&rdquo;] + list_name</p>
+<p>The more eaiser way to do add something to a list is using the append method.</p>
+<p>list_name.append(&ldquo;New value&rdquo;)</p>
+<ul>
+<li>Notes
+The append method takes in one value.
+the append method is parenthesis
+the append method adds at the end of a list</li>
+</ul>
+<p>del my_list[0] this will delete whatever value is at the 0 position of the list.</p>
+<p>sort funtion :</p>
+<p>my_list.sort() - The sort funtion takes no aurgument and sorts the number in assending order. Meaning from less to bigger number
+my_list.reverse() - This funtion takes all the value from the end and put them at the front. It reorders</p>
+<p>.index() - This function finds out where a value is in a list. It retuns an integer.</p>
+<p>max() - Max number in a list
+min() - Min number in a list</p>
 
         </div>
 
@@ -156,8 +209,8 @@
           <div class="col-xs-12">
             
             <div class="post-tags">
-              <a href="/tags/mathematics/">
-                Mathematics
+              <a href="/tags/cs/">
+                cs
               </a>
             </div>
             
@@ -171,6 +224,19 @@
           </div>
 
           
+
+<div class="related-content">
+  <h3>Related Posts</h3>
+  <ul>
+    
+    <li><a href="/posts/whileloops/">( Python ) Strings and slicing</a></li>
+    
+    <li><a href="/posts/boolen/">( Python ) Boolen</a></li>
+    
+    <li><a href="/posts/types/"> ( Python ) Format Funtion &amp; Errors</a></li>
+    
+  </ul>
+</div>
 
 
 

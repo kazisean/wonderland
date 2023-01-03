@@ -7,8 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="" />
-  <meta property="og:url" content="https://iinotes.org/posts/math/" />
-  <link rel="canonical" href="https://iinotes.org/posts/math/" /><link rel="apple-touch-icon" href="/favicon.ico" />
+  <meta property="og:url" content="https://iinotes.org/posts/types/" />
+  <link rel="canonical" href="https://iinotes.org/posts/types/" /><link rel="apple-touch-icon" href="/favicon.ico" />
   <link rel="icon" href="/favicon.ico" />
   <link rel="shortcut" href="/favicon.ico" /><link rel="alternate" type="application/atom+xml" href="https://iinotes.orgindex.xml" title="WonderLand by Kazi Sean">
 
@@ -21,9 +21,9 @@
            "@id": "https:\/\/iinotes.org"
       },
       "articleSection" : "posts",
-      "name" : "Math",
-      "headline" : "Math",
-      "description" : "Welcome to this math section",
+      "name" : " ( Python ) Format Funtion \u0026 Errors",
+      "headline" : " ( Python ) Format Funtion \u0026 Errors",
+      "description" : "The format funtion takes in 2 argument. The first aurgument is the thing you want to format (a string or number). The second argument would be a pattern want to apply (how you want it to be formated). This second argument is always expressed as a string. It would have to have \u0026ldquo;\u0026rdquo;. Inside those quotation marks first we need to declare the data type. If the data type is a float inside the \u0026quot;\u0026quot; we need to put an f.",
       "inLanguage" : "en-US",
       "author" : "",
       "creator" : "",
@@ -31,17 +31,17 @@
       "accountablePerson" : "",
       "copyrightHolder" : "",
       "copyrightYear" : "2022",
-      "datePublished": "2022-12-16 12:32:53 -0500 EST",
-      "dateModified" : "2022-12-16 12:32:53 -0500 EST",
-      "url" : "https:\/\/iinotes.org\/posts\/math\/",
-      "keywords" : [ "Mathematics", ]
+      "datePublished": "2022-12-19 08:48:39 -0500 EST",
+      "dateModified" : "2022-12-19 08:48:39 -0500 EST",
+      "url" : "https:\/\/iinotes.org\/posts\/types\/",
+      "keywords" : [ "cs", ]
   }
 </script>
-<title>Math</title>
-  <meta property="og:title" content="Math" />
+<title> ( Python ) Format Funtion &amp; Errors</title>
+  <meta property="og:title" content=" ( Python ) Format Funtion &amp; Errors" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="Welcome to this math section" />
-  <meta name="description" content="Welcome to this math section" />
+  <meta property="og:description" content="The format funtion takes in 2 argument. The first aurgument is the thing you want to format (a string or number). The second argument would be a pattern want to apply (how you want it to be formated). This second argument is always expressed as a string. It would have to have &amp;ldquo;&amp;rdquo;. Inside those quotation marks first we need to declare the data type. If the data type is a float inside the &amp;quot;&amp;quot; we need to put an f." />
+  <meta name="description" content="The format funtion takes in 2 argument. The first aurgument is the thing you want to format (a string or number). The second argument would be a pattern want to apply (how you want it to be formated). This second argument is always expressed as a string. It would have to have &amp;ldquo;&amp;rdquo;. Inside those quotation marks first we need to declare the data type. If the data type is a float inside the &amp;quot;&amp;quot; we need to put an f." />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/favicon.ico" />
   
 
@@ -122,16 +122,16 @@
         </div>
         <header class="post-header">
           
-          <h1 class="post-title">Math</h1>
+          <h1 class="post-title"> ( Python ) Format Funtion &amp; Errors</h1>
           
           <div class="row post-desc">
             <div class="col-xs-6">
               
-              <p>Reading time: 1 minute</p>
+              <p>Reading time: 2 minutes</p>
 
-              <time class="post-date" datetime="2022-12-16 12:32:53 EST">
+              <time class="post-date" datetime="2022-12-19 08:48:39 EST">
                 
-                16 Dec 2022
+                19 Dec 2022
               </time> 
               
               
@@ -148,7 +148,22 @@
 
         <div class="post-content markdown-body">
           
-          <p>Welcome to this math section</p>
+          <p>The format funtion takes in 2 argument. The first aurgument is the thing you want to format (a string or number). The second argument would be a pattern want to apply (how you want it to be formated). This second argument is always expressed as a string. It would have to have &ldquo;&rdquo;. Inside those quotation marks first we need to declare the data type. If the data type is a float inside the &quot;&quot; we need to put an f.</p>
+<p>Example :  format(my_data,&ldquo;f&rdquo;)</p>
+<p>After that if we want to convert the data to 2 decimal places we can do the following.</p>
+<p>Example :  format(my_data,&quot;.2f&quot;)</p>
+<ul>
+<li>The format number always returns a string</li>
+</ul>
+<p>If we wanted to have a comma after 2 decimal places we can format like the following.</p>
+<p>Example :  format(my_data,&quot;,.2f&quot;)</p>
+<h1 id="centerformating-integerscenter"><center>Formating Integers</center></h1>
+<p>Example : Example :  format(my_data,&quot;,d&quot;)</p>
+<p>in this case we put d because we assumed that the data type is an integer.</p>
+<h2 id="centertypes-of-erros-and-their-meaningcenter"><center>Types of Erros and their meaning</center></h2>
+<p>Syntax error : A misuse of the python language. It is when for example we forget to put a closing parenthesis on your print statement.</p>
+<p>Runtime Error : A error that takes place during the running of your program. The program does run but at some point it crashes. An example would be diving a number by zero which would give us an invalid answer.</p>
+<p>Logic Error : A type of error where your programs runs fine without crashing but gives you an output which you dont want. Meaning somethign in the code went wrong and giving you the wrong answer. These are the hardest error&rsquo;s to find.</p>
 
         </div>
 
@@ -156,8 +171,8 @@
           <div class="col-xs-12">
             
             <div class="post-tags">
-              <a href="/tags/mathematics/">
-                Mathematics
+              <a href="/tags/cs/">
+                cs
               </a>
             </div>
             
@@ -171,6 +186,17 @@
           </div>
 
           
+
+<div class="related-content">
+  <h3>Related Posts</h3>
+  <ul>
+    
+    <li><a href="/posts/cs_dictionary/">( Python ) Dictionaries Notes</a></li>
+    
+    <li><a href="/posts/cs/">( Python ) Object Oriented Programming </a></li>
+    
+  </ul>
+</div>
 
 
 
