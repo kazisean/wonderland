@@ -6,7 +6,28 @@
     <description>Recent content in cs on WonderLand by Kazi Sean</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Dec 2022 20:33:19 -0500</lastBuildDate><atom:link href="https://iinotes.org/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Feb 2023 20:52:20 -0500</lastBuildDate><atom:link href="https://iinotes.org/tags/cs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chapter 5 (Loops) - Introduction to Java Programming</title>
+      <link>https://iinotes.org/posts/java-ch-5/</link>
+      <pubDate>Sat, 25 Feb 2023 20:52:20 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/java-ch-5/</guid>
+      <description>Introduction What are loops? -&amp;gt; Loops are constructs that control repeated execution of a block statements.
+What are the different types of loops in java? -&amp;gt; There are three types of loop in java
+ while loops do-while loops for loops  Chapter 5.2 : The while loop What is a while loop? -&amp;gt; A while loop keeps executing while the condition is true.
+What does a while loop looks like?</description>
+    </item>
+    
+    <item>
+      <title>( Java ) Introduction</title>
+      <link>https://iinotes.org/posts/welcome_to_java/</link>
+      <pubDate>Sun, 08 Jan 2023 13:34:56 -0500</pubDate>
+      
+      <guid>https://iinotes.org/posts/welcome_to_java/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>( Python ) List</title>
       <link>https://iinotes.org/posts/list/</link>

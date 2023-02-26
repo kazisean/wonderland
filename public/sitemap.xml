@@ -2,8 +2,33 @@
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="https://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://iinotes.org/posts/java-ch-5/</loc>
+    <lastmod>2023-02-25T20:52:20-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/tags/cs/</loc>
+    <lastmod>2023-02-25T20:52:20-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://iinotes.org/posts/</loc>
-    <lastmod>2022-12-21T15:09:41-05:00</lastmod>
+    <lastmod>2023-02-25T20:52:20-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/tags/</loc>
+    <lastmod>2023-02-25T20:52:20-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/</loc>
+    <lastmod>2023-02-25T20:52:20-05:00</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://iinotes.org/posts/welcome_to_java/</loc>
+    <lastmod>2023-01-08T13:34:56-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -17,22 +42,7 @@
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://iinotes.org/tags/</loc>
-    <lastmod>2022-12-21T15:09:41-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/</loc>
-    <lastmod>2022-12-21T15:09:41-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://iinotes.org/posts/list/</loc>
-    <lastmod>2022-12-19T20:33:19-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/tags/cs/</loc>
     <lastmod>2022-12-19T20:33:19-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
@@ -89,16 +99,6 @@
   </url><url>
     <loc>https://iinotes.org/posts/class-notes/</loc>
     <lastmod>2022-12-16T12:25:22-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/tags/other/</loc>
-    <lastmod>2022-12-15T22:33:27-05:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://iinotes.org/posts/welcome/</loc>
-    <lastmod>2022-12-15T22:33:27-05:00</lastmod>
     <changefreq>hourly</changefreq>
     <priority>0.5</priority>
   </url><url>
